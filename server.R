@@ -3,7 +3,7 @@
 library(shiny)
 library(maps)
 source("helpers.R") # working directory Census-App
-counties <- readRDS("data/counties.rds") # working directory is 
+counties <- read.csv("data/counties.csv") # working directory is 
   # already understood to be Census-App, so only need to add data/
 
 shinyServer(function(input, output) {
