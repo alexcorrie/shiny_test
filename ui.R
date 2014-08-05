@@ -26,7 +26,7 @@ shinyUI(fluidPage(theme = "slatebootstrap.css",
     br(),
     br(),
     img(src = "bigorb.png", width = 72, height = 72), # image file in App-A www directory
-    "This application is powered by R and ",
+    "This app is powered by R and ",
     a("RStudio", href = "http://www.rstudio.com/shiny")
   ),
   
