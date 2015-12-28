@@ -9,4 +9,4 @@ Testing Shiny Census Visualization App
 # 3. install.packages("mapproj")
 # 4. library(shiny)
 # 5. runGitHub("shiny_test", "alexcorrie")
-# nota bene: after you install the listed packages once, to run the app again you only need to run commands 4 and 5, the app will load the libraries for you.
+# nota bene: after you install the listed packages once, to run the app again you only need to run commands 4 and 5, the app will load the libraries from step 1-3 for you.
