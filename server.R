@@ -14,7 +14,7 @@ shinyServer(function(input, output) {
   
   output$text2 <- renderText({
     paste("You have chosen a percentage range that goes from:",
-          input$range[1], "to", input$range[2])
+          input$range[1], "to", input$range[2], "or more.")
   })
   
   output$map <- renderPlot({
